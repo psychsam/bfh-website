@@ -1,1 +1,8 @@
 * { background-color: violet}
+table, th, th {
+    border: 1px solid black;
+}
+
+table, td, td {
+    border: 1px solid black;
+}
