@@ -7,7 +7,9 @@ table, th, th {
 table, td, td {
     border: 1px solid black;
 }
-
+.nonborder {
+   border: none;
+}
 .bwl {
     background: blueviolet; 
     color: white;
