@@ -1,8 +1,43 @@
-* { background-color: violet}
+* { background-color: violet} 
+font-family: 'Roboto', sans-serif;
 table, th, th {
     border: 1px solid black;
 }
 
 table, td, td {
     border: 1px solid black;
+}
+
+.blw {
+    background: blueviolet; 
+    color: white;"
+}
+.dma {
+     background: green; 
+        color: white;
+}
+
+.nat1 {
+    background: blue;
+    color: white;
+}
+
+.komm {
+    background: red; 
+    color: white;
+}
+
+.prog1 {
+ background: lime; 
+ color: black;
+}
+
+.ginf {
+    background: lime; 
+    color: black;
+}
+
+.eng1 {
+   background: red;
+   color: white;" 
 }
