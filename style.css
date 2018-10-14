@@ -1,4 +1,4 @@
-* { background-color: violet} 
+* { background-color: white} 
 font-family: 'Roboto', sans-serif;
 table, th, th {
     border: 1px solid black;
@@ -10,7 +10,7 @@ table, td, td {
 
 .blw {
     background: blueviolet; 
-    color: white;"
+    color: white;
 }
 .dma {
      background: green; 
@@ -39,5 +39,5 @@ table, td, td {
 
 .eng1 {
    background: red;
-   color: white;" 
+   color: white; 
 }
