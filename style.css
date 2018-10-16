@@ -7,88 +7,89 @@ table, th, th {
     border: 1px solid black;
 }
 
-table, td, td {
-    border: 1px solid black;
-}
 .lunch {
 	background: gray;
 	border: none;
 }
+
 .nonborder {
-   border: none;
-   background: lightgray;
-}
-.bwl_highlight {
-    background: blueviolet; 
-    color: white;
-}
-.dma_highlight {
-     background: green; 
-        color: white;
+	border: none;
+	background: lightgray;
 }
 
-.nat1_highlight {
+.bwl {
+	background: blueviolet; 
+    color: white;
+}
+
+.dma {
+    background: green; 
+	color: white;
+}
+
+.nat1 {
     background: blue;
     color: white;
 }
 
-.komm_highlight {
+.komm {
     background: red; 
     color: white;
 }
 
-.prog1_highlight {
- background: lime; 
- color: black;
+.prog1 {
+	background: lime; 
+	color: black;
 }
 
-.ginf_highlight {
+.ginf {
     background: lime; 
-    color: black;
+	color: black;
 }
 
-.eng1_highlight {
-   background: red;
-   color: white; 
+.eng1 {
+	background: red;
+	color: white; 
 }
 
-.bwl {
+.bwl_highlight {
     background: white; 
     color: black;
 	border: 8px solid blueviolet;
 }
-.dma {
-     background: white; 	
-	 color: black;
-	 border: 8px solid green;
+
+.dma_highlight {
+    background: white; 	
+	color: black;
+	border: 8px solid green;
 }
 
-.nat1 {
+.nat1_highlight {
     background: white;
     color: black;
 	border: 8px solid blue;
 }
 
-.komm {
+.komm_highlight {
     background: white; 
     color: black;
 	border: 8px solid red;
 }
 
-.prog1 {
- background: white; 
- color: black;
- border: 8px solid lime;
+.prog1_highlight {
+	background: white; 
+	color: black;
+	border: 8px solid lime;
 }
 
-.ginf {
-     background: white; 
- color: black;
- border: 8px solid lime;
+.ginf_highlight {
+    background: white; 
+	color: black;
+	border: 8px solid lime;
 }
 
-.eng1 {
-   background: white;
-   color: black;
-   border: 8px solid red;
+.eng1_highlight {
+	background: white;
+	color: black;
+	border: 8px solid red;
 }
