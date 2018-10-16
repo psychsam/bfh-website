@@ -10,39 +10,85 @@ table, th, th {
 table, td, td {
     border: 1px solid black;
 }
+.lunch {
+	background: gray;
+	border: none;
+}
 .nonborder {
    border: none;
+   background: lightgray;
 }
-.bwl {
+.bwl_highlight {
     background: blueviolet; 
     color: white;
 }
-.dma {
+.dma_highlight {
      background: green; 
         color: white;
 }
 
-.nat1 {
+.nat1_highlight {
     background: blue;
     color: white;
 }
 
-.komm {
+.komm_highlight {
     background: red; 
     color: white;
 }
 
-.prog1 {
+.prog1_highlight {
  background: lime; 
  color: black;
 }
 
-.ginf {
+.ginf_highlight {
     background: lime; 
     color: black;
 }
 
-.eng1 {
+.eng1_highlight {
    background: red;
    color: white; 
+}
+
+.bwl {
+    background: white; 
+    color: black;
+	border: 8px solid blueviolet;
+}
+.dma {
+     background: white; 	
+	 color: black;
+	 border: 8px solid green;
+}
+
+.nat1 {
+    background: white;
+    color: black;
+	border: 8px solid blue;
+}
+
+.komm {
+    background: white; 
+    color: black;
+	border: 8px solid red;
+}
+
+.prog1 {
+ background: white; 
+ color: black;
+ border: 8px solid lime;
+}
+
+.ginf {
+     background: white; 
+ color: black;
+ border: 8px solid lime;
+}
+
+.eng1 {
+   background: white;
+   color: black;
+   border: 8px solid red;
 }
