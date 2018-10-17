@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" href="style.css" >
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<script type="application/javascript" src="script.js"></script>
+<body onload="markField()">
 <body>
 <!-- jhaldimann & psychsam -->
 <h2>Stundenplan I1A</h2>
@@ -15,69 +17,69 @@
 		<th>Donnerstag</th>
 		<th>Freitag</th>
 	</tr>
-	<tr>
+	<tr class="one">
 		<th>8:20<br>9:05</th>
-		<td class="nonborder" rowspan="2"></td>
-		<td class="bwl" rowspan="2">BWL 308<br>AAR4</td>
-		<td class="dma" rowspan="2">DMA 604<br>BAE1</td>
-		<td class="nonborder" rowspan="2"></td>
-		<td class="nonborder" rowspan="2"></td>
+		<td class="nonborder m0" rowspan="2"></td>
+		<td class="bwl tu0" rowspan="2">BWL 308<br>AAR4</td>
+		<td class="dma w0" rowspan="2">DMA 604<br>BAE1</td>
+		<td class="nonborder th0" rowspan="2"></td>
+		<td class="nonborder f0" rowspan="2"></td>
 	</tr>
-	<tr>
+	<tr class="two">
 		<th>9:10<br>9:55</th>
 	</tr>	
-	<tr>
+	<tr class="three">
 		<th>10:20<br>11:05</th>
-		<td class="nat1" rowspan="2">NAT1 609<br>SGC</td>
-		<td class="komm_highlight" rowspan="2">KOMM 303<br>KLM14</td>
-		<td class="prog1" rowspan="2" >PROG1 604<br>HNR1.</td>
-		<td class="bwl" rowspan="2">BWL 308<br>AAR4</td>
-		<td class="nonborder" rowspan="2"></td>
+		<td class="nat1 m1" rowspan="2">NAT1 609<br>SGC</td>
+		<td class="komm tu1" rowspan="2">KOMM 303<br>KLM14</td>
+		<td class="prog1 w1" rowspan="2" >PROG1 604<br>HNR1.</td>
+		<td class="bwl th1" rowspan="2">BWL 308<br>AAR4</td>
+		<td class="nonborder f1" rowspan="2"></td>
 	</tr>	
-	<tr>
+	<tr class="four">
 		<th>11:10<br>11:55</th>
 	</tr>	
-	<tr>
+	<tr class="five">
 		<th>12:00<br>12:45</th>
-		<td class="lunch" ></td>
-		<td class="lunch" ></td>
-		<td class="lunch" ></td>
-		<td class="lunch" ></td>
-		<td class="lunch" ></td>
+		<td class="lunch m2" ></td>
+		<td class="lunch tu2" ></td>
+		<td class="lunch w2" ></td>
+		<td class="lunch th2" ></td>
+		<td class="lunch f2" ></td>
 		
 	</tr>	
-	<tr>	
+	<tr class="six">	
 		<th>12:45<br>13:30</th>
-		<td class="prog1" rowspan="2">PROG1 407<br>HNR1.</td>
-		<td class="dma" rowspan="2">DMA 208<br>BAE1</td>
-		<td class="prog1" rowspan="2">PROG1 604<br>HNR1.</td>
-		<td rowspan="2" class="nonborder"></td>
-		<td class="dma" rowspan="2">DMA 604<br>BAE1</td>
+		<td class="prog1 m3" rowspan="2">PROG1 407<br>HNR1.</td>
+		<td class="dma tu3" rowspan="2">DMA 208<br>BAE1</td>
+		<td class="prog1 w3" rowspan="2">PROG1 604<br>HNR1.</td>
+		<td class="nonborder th3" rowspan="2"></td>
+		<td class="dma f3" rowspan="2">DMA 604<br>BAE1</td>
 	</tr>	
-	<tr>	
+	<tr class="seven">	
 		<th>13:35<br>14:20</th>
 	</tr>	
-	<tr>	
+	<tr class="eight">	
 		<th>14:25<br>15:10</th>
-		<td class="ginf" rowspan="2">GINF 408<br>BIE1</td>
-		<td class="nat1" rowspan="2">NAT1 603<br>TEC1</td>
-		<td class="nonborder" rowspan="2"></td>
-		<td class="ginf" rowspan="2">GINF 408<br>BIE1</td>
-		<td class="eng1" rowspan="2">ENG1 306/406<br>NaN</td>		
+		<td class="ginf m4" rowspan="2">GINF 408<br>BIE1</td>
+		<td class="nat1 tu4" rowspan="2">NAT1 603<br>TEC1</td>
+		<td class="nonborder w4" rowspan="2"></td>
+		<td class="ginf th4" rowspan="2">GINF 408<br>BIE1</td>
+		<td class="eng1 f4" rowspan="2">ENG1 306/406<br>NaN</td>		
 	</tr>	
-	<tr>
+	<tr class="nine">
 		<th>15:25<br>16:10</th>
 	</tr>	
-	<tr>	
+	<tr class="ten">	
 		<th>16:15<br>17:00</th>
-		<td class="ginf" rowspan="2">GINF 408<br>BIE1</td>
-		<td class="nonborder" rowspan="2"></td>
-		<td class="nonborder" rowspan="2" ></td>
-		<td class="nonborder" rowspan="2" ></td>
-		<td class="nonborder" rowspan="2" ></td>
+		<td class="ginf m5" rowspan="2">GINF 408<br>BIE1</td>
+		<td class="nonborder tu5" rowspan="2"></td>
+		<td class="nonborder w5" rowspan="2" ></td>
+		<td class="nonborder th5" rowspan="2" ></td>
+		<td class="nonborder f5" rowspan="2" ></td>
 		
 	<tr>	
-		<th>17:05<br>17:50</th>       
+		<th class="eleven">17:05<br>17:50</th>       
 	</tr>
 </table>
 

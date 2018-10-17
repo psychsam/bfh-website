@@ -12,11 +12,17 @@ function markField () {
       result = comparedTimes;
     }
   });
+  if(result > 0) result--;
+  
 
   if(result <= 7) {
     let myClass = document.querySelector("."+daysInWeek[day] + result);
-    myClass.classList.add("rainbow");
-    table.classList.add('fancy');
+   
+    var name = myClass.className;
+    var names = name.split(" ");
+    console.log(names[0]) 
+    if(names[0] != "lunch" && names[0] != )
+    myClass.classList.add(names[0] + "_highlight");
   }
 
 }
@@ -24,7 +30,7 @@ function markField () {
 function compareTime(now,time,index) {
   let pos;
   if(now <= time) {
-    pos = index;
+    pos = index;    
   }
   return pos;
 }
