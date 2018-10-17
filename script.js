@@ -20,9 +20,10 @@ function markField () {
    
     var name = myClass.className;
     var names = name.split(" ");
-    console.log(names[0]) 
-    if(names[0] != "lunch" && names[0] != )
-    myClass.classList.add(names[0] + "_highlight");
+    if(names[0] != "lunch" && names[0] != "nonborder")
+        {
+            myClass.classList.add(names[0] + "_highlight");
+        }
   }
 
 }
