@@ -3,7 +3,7 @@ function markField () {
   let hours = new Date().getHours();
   let minutes = new Date().getMinutes();
   let daysInWeek = ['s', 'm', 'tu', 'w', 'th', 'f', 'sa'];
-  let times = [8*60+20, 10*60+20, 11*60+55, 12*60+45, 14*60+25, 16*60+15, 17*60+50];
+  let times = [8*60+19, 10*60+19, 11*60+55, 12*60+44, 14*60+24, 16*60+14, 17*60+49];
   let table = document.querySelector('table');
   let result = 0;
   times.forEach((element,index) => {
