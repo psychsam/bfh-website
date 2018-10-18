@@ -1,0 +1,76 @@
+.bwl {
+	background: #7c2fce;
+	color: white;
+}
+
+.dma {
+	background: #589758;
+	color: white;
+}
+
+.nat1 {
+	background: #5355ff;
+	color: white;
+}
+
+.komm {
+	background: #ff4d4d;
+	color: white;
+}
+
+.prog1 {
+	background: #fff887;
+	color: black;
+}
+
+.ginf {
+	background: #57c27b;
+	color: white;
+}
+
+.eng1 {
+	background: #ffb174;
+	color: black;
+}
+
+.bwl_highlight {
+	background: white;
+	color: black;
+	border: 8px solid blueviolet;
+}
+
+.dma_highlight {
+	background: white;
+	color: black;
+	border: 8px solid green;
+}
+
+.nat1_highlight {
+	background: white;
+	color: black;
+	border: 8px solid blue;
+}
+
+.komm_highlight {
+	background: white;
+	color: black;
+	border: 8px solid red;
+}
+
+.prog1_highlight {
+	background: white;
+	color: black;
+	border: 8px solid lime;
+}
+
+.ginf_highlight {
+	background: white;
+	color: black;
+	border: 8px solid lime;
+}
+
+.eng1_highlight {
+	background: white;
+	color: black;
+	border: 8px solid red;
+}
