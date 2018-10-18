@@ -27,61 +27,61 @@ table, th, th {
 }
 
 .bwl {
-	background: blueviolet; 
+	background: #7c2fce;
     color: white;
 }
 
 .dma {
-    background: green; 
+	background: #589758;
 	color: white;
 }
 
 .nat1 {
-    background: blue;
-    color: white;
+	background: #5355ff;
+	color: white;
 }
 
 .komm {
-    background: red; 
-    color: white;
+	background: #ff4d4d;
+	color: white;
 }
 
 .prog1 {
-	background: lime; 
+	background: #fff887;
 	color: black;
 }
 
 .ginf {
-    background: lime; 
-	color: black;
+	background: #57c27b;
+	color: white;
 }
 
 .eng1 {
-	background: red;
-	color: white; 
+	background: #ffb174;
+	color: black;
 }
 
 .bwl_highlight {
-    background: white; 
-    color: black;
+	background: white;
+	color: black;
 	border: 8px solid blueviolet;
 }
 
 .dma_highlight {
-    background: white; 	
+	background: white;
 	color: black;
 	border: 8px solid green;
 }
 
 .nat1_highlight {
-    background: white;
-    color: black;
+	background: white;
+	color: black;
 	border: 8px solid blue;
 }
 
 .komm_highlight {
-    background: white; 
-    color: black;
+	background: white;
+	color: black;
 	border: 8px solid red;
 }
 
@@ -92,7 +92,7 @@ table, th, th {
 }
 
 .ginf_highlight {
-    background: white; 
+	background: white;
 	color: black;
 	border: 8px solid lime;
 }
