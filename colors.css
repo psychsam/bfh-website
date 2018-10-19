@@ -36,41 +36,41 @@
 .bwl_highlight {
 	background: white;
 	color: black;
-	border: 8px solid blueviolet;
+	border: 8px solid #7c2fce;
 }
 
 .dma_highlight {
 	background: white;
 	color: black;
-	border: 8px solid green;
+	border: 8px solid #589758;
 }
 
 .nat1_highlight {
 	background: white;
 	color: black;
-	border: 8px solid blue;
+	border: 8px solid #5355ff;
 }
 
 .komm_highlight {
 	background: white;
 	color: black;
-	border: 8px solid red;
+	border: 8px solid #ff4d4d;
 }
 
 .prog1_highlight {
 	background: white;
 	color: black;
-	border: 8px solid lime;
+	border: 8px solid #fff887;
 }
 
 .ginf_highlight {
 	background: white;
 	color: black;
-	border: 8px solid lime;
+	border: 8px solid #57c27b;
 }
 
 .eng1_highlight {
 	background: white;
 	color: black;
-	border: 8px solid red;
+	border: 8px solid #ffb174;
 }
