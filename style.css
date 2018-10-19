@@ -1,26 +1,26 @@
 @import "colors.css";
 
 * {
-    background-color: white; 
-    font-family: 'Roboto', sans-serif;
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
 } 
 
 table, th, th {
-    border: 1px solid black;
+	border: 1px solid black;
 }
 
 .lunch {
 	background: gray;
 	border: none;
-    text-align: center;
-    color: gray;
+	text-align: center;
+	color: gray;
 }
 
 .lunch_highlight {
-    background: gray;
-    color: black;
-    text-align: center; 
-    border: 4px solid black;
+	background: gray;
+	color: black;
+	text-align: center;
+	border: 4px solid black;
 }
 
 .nonborder {
